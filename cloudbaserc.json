@@ -1,0 +1,26 @@
+{
+  "envId": "ai-assets-lib-d1gc77tkf246a4124",
+  "version": "2.0",
+  "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
+  "functionRoot": "cloudfunctions",
+  "functions": [
+    {
+      "name": "getAssets",
+      "timeout": 10,
+      "envVariables": {},
+      "runtime": "Nodejs16.13"
+    },
+    {
+      "name": "searchAssets",
+      "timeout": 10,
+      "envVariables": {},
+      "runtime": "Nodejs16.13"
+    },
+    {
+      "name": "getAssetDetail",
+      "timeout": 10,
+      "envVariables": {},
+      "runtime": "Nodejs16.13"
+    }
+  ]
+}
